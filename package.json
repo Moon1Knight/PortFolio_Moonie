@@ -1,5 +1,6 @@
 {
-  "name": "portfolio",
+  "homepage": "http://Moon1knight.github.io/PortFolio_Moonie",
+  "name": "niteshportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,6 +26,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,6 +37,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "author": {
+    "name": "Nitesh"
   },
   "browserslist": {
     "production": [
@@ -46,5 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
