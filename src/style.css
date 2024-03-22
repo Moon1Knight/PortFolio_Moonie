@@ -489,7 +489,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: linear-gradient(to left, rgb(20, 22, 41), rgb(15, 20, 35)) !important;
 }
 
 .project-card {
