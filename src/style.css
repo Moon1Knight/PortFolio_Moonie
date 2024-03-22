@@ -442,11 +442,11 @@ button:focus {
 
 } 
 
-. {
+/* . {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
+} */
 .footer-copywright {
   text-align: center !important;
 }
